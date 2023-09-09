@@ -1,0 +1,171 @@
+body {
+    background-color: #B6D5F0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container-l {
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.container-l2 {
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.container-c {
+    padding: 10px 20px;
+    text-align: center;
+    vertical-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container-pad{
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.thermometer {
+    display: inline-block;
+    width: 25px;
+    height: 200px;
+    background-color: black;
+    color: black;
+    border-radius: 12.5px;
+    margin-left: 20px;
+    align-content: center;
+    vertical-align: center;
+}
+
+.thermometer-inside {
+    align-content: center;
+    width: 15px;
+    height: 100px;
+    background-color: orange;
+    background-image: linear-gradient(orangered, orange);
+    color: orange;
+    border-radius: 7.5px;
+    margin-left: 5px;
+    margin-top: 50px;
+    padding-top: .1px;
+}
+
+.thermometer-ball {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    color: black;
+    border-radius: 5px;
+    margin-left: 2.5px;
+    margin-top: 45px;
+}
+
+.thermometer-text {
+    display: inline-block;
+    height: 200px;
+    margin-left: 5px;
+    top: 82.5px;
+    position: absolute;
+}
+
+thermometer-text {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+thermometer-big {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+
+location {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+}
+
+
+.heat {
+    display: inline-block;
+    width: 5px;
+    height: 130px;
+    background-color: black;
+    color: black;
+    border-radius: 12.5px;
+    left: 50px;
+    margin-top: 7px;
+    position: absolute;
+}
+
+.heat-lines {
+    height: 5px;
+    background-color: #9DC7E2;
+    color: #9DC7E2;
+    border-radius: 12.5px;
+    margin: 7.5px 25px;
+    margin-right: 5px;
+    align-content: center;
+    vertical-align: center;
+    z-index: 0;
+}
+
+.heat-text {
+    width: 30px;
+    left: 20px;
+    margin-top: 2.5px;
+    position: absolute;
+}
+
+heat-text{
+    font-family: "Josefin Sans", sans-serif;
+    text-align: right;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    line-height: 1.5;
+}
+
+mini-title {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: right;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    left: 50px;
+    position: absolute;
+}
+
+.img-pos1 {
+    margin-top: 9px;
+    left: -40px;
+    position: absolute;
+    z-index: 1;
+}
+
+.img-pos2 {
+    margin-top: 9px;
+    left: -30px;
+    position: absolute;
+    z-index: 1;
+}
